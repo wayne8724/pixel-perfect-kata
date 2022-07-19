@@ -1,0 +1,49 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 640px;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.news{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+h2{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+li{
+    display: flex;
+}
+
+li:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.article{
+    margin-left: 20px;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.newsList{
+    margin-right: 20px;
+}
